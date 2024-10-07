@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background-color: #0b3757;
+    color: white;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 2em;
+}
+
+.contact, .skills, .languages {
+    margin-bottom: 60px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li, .languages p {
+    margin-bottom: 20px;
+}
+
+.main-content h3 {
+    color: #333;
+}
+
+.profile-summary, .education, .work-experience, .references {
+    margin-bottom: 60px;
+}
+
+.work-experience ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.ima-photo{
+    width: 250px;
+    border-radius: 125px;
+    
+}
+.t{
+    color: white;
+    margin-bottom: 20px;
+}
+.h{
+    font-size: 35px;
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.position{
+    font-size: 35px;
+    margin-left: 95px;
+    color: #515050;
+    margin-bottom: 100px;
+    
+}
+.span{
+    color: #515050;
+    font-size: 60px;
+    margin-right: 20px;
+}
+.t1{
+    font-size: 40px;
+    border-bottom: 3px solid black;
+}
